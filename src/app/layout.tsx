@@ -7,7 +7,7 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'], display: 'swap' })
 
 // 🔧 REPLACE: set your production domain here
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://rideflow.com'
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://ride-flow-seo-6iej.vercel.app'
 const SITE_NAME = 'RideFlow'
 
 // ─── Root Metadata ────────────────────────────────────────────────────────────
