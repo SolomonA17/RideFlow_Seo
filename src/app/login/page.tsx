@@ -1,6 +1,15 @@
 // app/login/page.tsx
+import type { Metadata } from 'next';
 import { Suspense } from 'react';
 import LoginClient from '../../components/auth/LoginClient';
+
+export const metadata: Metadata = {
+  title: 'Login',
+  robots: {
+    index: false,
+    follow: false,
+  },
+};
 
 interface PageProps {
   searchParams: Promise<{ error?: string }> | { error?: string };
